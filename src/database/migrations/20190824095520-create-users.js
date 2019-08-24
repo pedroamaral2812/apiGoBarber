@@ -6,7 +6,7 @@ module.exports = {
         id: {
           type: Sequelize.INTEGER,
           allowNull: false,
-          autoIncremente: true,
+          autoIncrement: true,
           primaryKey: true,
         },
         name: {
@@ -27,11 +27,11 @@ module.exports = {
           defaultValue: false,
           allowNull:false,
         },
-        created: {
+        created_at: {
           type: Sequelize.DATE,
           allowNull: false,
         },
-        update_at: {
+        updated_at: {
           type: Sequelize.DATE,
           allowNull: false,
         }
