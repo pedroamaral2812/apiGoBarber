@@ -12,7 +12,7 @@ class App {
   }
 
   middlewares() {
-    console.log('teste');
+    this.server.use(express.json());
   }
 
   routes() {
